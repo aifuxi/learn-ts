@@ -1,0 +1,22 @@
+{
+  "name": "learn-ts",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "dependencies": {
+    "cz-customizable": "^6.3.0"
+  }
+}
